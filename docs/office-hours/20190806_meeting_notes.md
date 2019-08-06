@@ -1,4 +1,4 @@
-# osquery office hours 2019-08-05
+# osquery office hours 2019-08-06
 
 ## Highlights since the last meeting
 
