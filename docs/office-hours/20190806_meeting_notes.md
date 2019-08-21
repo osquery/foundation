@@ -1,6 +1,6 @@
 # osquery office hours 2019-08-06
 
-[YouTube Recording](https://www.youtube.com/watch?v=rTJ3ol_gANE&list=PLciHOL_J7IwpSUHLTNwMZFaQAcSRSTIkI&index=6&t=0s)
+[YouTube Recording](https://www.youtube.com/watch?v=rTJ3ol_gANE&list=PLciHOL_J7IwpSUHLTNwMZFaQAcSRSTIkI)
 
 ## Highlights since the last meeting
 
