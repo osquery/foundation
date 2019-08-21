@@ -1,5 +1,7 @@
 # osquery Office Hours 2019-08-20
 
+[YouTube Recording](https://www.youtube.com/watch?v=sSpoM1ebYWc)
+
 ## Highlights since the last meeting
 
 * Third Party PR is open -- [#5706](https://github.com/osquery/osquery/pull/5706)
