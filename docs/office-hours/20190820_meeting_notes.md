@@ -60,7 +60,7 @@ There's general interest in seeing this. Discussion about wanting to include thi
 
 ## Foundation Process & Procedures & website things
 
-@seph is trying to make a set of foundation process and procedure docs. Nothing very far here.
+@directionless is trying to make a set of foundation process and procedure docs. Nothing very far here.
 
 @zwass offers to make a foundation section on the webpage. Should be an easy first pass of office hours, and high level things. 
 https://github.com/osquery/osquery-site/issues/145
@@ -93,6 +93,6 @@ They pointed us at https://communitybridge.org, a tool they use.
 
 The new CLA uses docusign, and requires an address. This has been raised as a question, may or may not be a concern.
 
-@seph reports that the Linux Foundation went this route on the advice of their lawyers. And that they had some comments about CLAs not having been tested in court.
+@directionless reports that the Linux Foundation went this route on the advice of their lawyers. And that they had some comments about CLAs not having been tested in court.
 
 Maybe some people will try to talk about it this week at OSSCON in San Diego. (Unclear, this was a comment on slack)
