@@ -21,7 +21,8 @@ in turn will depend on the work of others. Any decision you take will
 affect users and colleagues, and you should take those consequences
 into account when making decisions. Remember that we’re a world-wide
 community, so you might not be communicating in someone else’s primary
-language.  Be respectful: Not all of us will agree all the time, but
+language.
+* **Be respectful**: Not all of us will agree all the time, but
 disagreement is no excuse for poor behavior and poor manners. We might
 all experience some frustration now and then, but we cannot allow that
 frustration to turn into a personal attack. It’s important to remember
