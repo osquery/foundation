@@ -41,10 +41,10 @@ a productive one.
   - Unwelcome sexual attention.
   - Advocating for, or encouraging, any of the above behavior.
   - Repeated harassment of others. In general, if someone asks you to stop, then stop.
-  - **When we disagree, try to understand why**: Disagreements, both
+* **When we disagree, try to understand why**: Disagreements, both
     social and technical, happen all the time. It is important that we
     resolve disagreements and differing views constructively.
-  - **Remember that we’re different.** The strength of our community
+* **Remember that we’re different.** The strength of our community
     comes from its diversity, people from a wide range of
     backgrounds. Different people have different perspectives on
     issues. Being unable to understand why someone holds a viewpoint
