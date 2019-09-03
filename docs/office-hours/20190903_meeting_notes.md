@@ -41,7 +41,7 @@ More people to help update third-party libs would help. Stefano has done about s
 
 #### How do we move forward?
 
-We **will** merge the custom toolchain work. This needs a small amount of doc work, and binaries somewhere. https://github.com/osquery/osquer
+We **will** merge the custom toolchain work. This needs a small amount of doc work, and binaries somewhere. https://github.com/osquery/osquery/issues/5609
 
 _Then_ we will tackle the third-party dependencies one at a time, getting support for older libc into their configuration files. This work will be done a third-party lib at a time.
 
