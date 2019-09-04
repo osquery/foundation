@@ -1,5 +1,7 @@
 # osquery Office Hours 2019-09-03
 
+YouTube Recording: https://youtu.be/urMFR1ICFbU
+
 ## Highlights since the last meeting
 
 * Lots of progress towards [4.0.1](https://github.com/osquery/osquery/milestone/42)
