@@ -85,7 +85,7 @@ This is https://github.com/osquery/foundation/issues/15
 
 The readthedocs people reached out to us about profit sharing, which means we need a bank account. The Linux Foundation pointed us at Community Bridge, a platform they're building out.
 
-seph went through the signup procress, and we are now live at https://funding.communitybridge.org/projects/osquery It all looks a bit rough right now. But, we can probably take donations in, and the TSC can claim expenses.
+seph went through the signup process, and we are now live at https://funding.communitybridge.org/projects/osquery It all looks a bit rough right now. But, we can probably take donations in, and the TSC can claim expenses.
 
 ### Can we become self sustaining
 
