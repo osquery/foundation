@@ -11,7 +11,7 @@
 
 https://github.com/osquery/osquery/issues/5793
 
-Two issues in the third-party dependancy bugs:
+Two issues in the third-party dependency bugs:
 - RocksDB was missing a patch that was lost during the refactor (it
   was built into the brew-distributed binaries).
 - The AWS library was missing the OpenSSL support, which would cause
@@ -36,7 +36,7 @@ AlexM askes what, if anything, was missing from version 4.
 - Blackbox testing
 - Building extensions
 
-## Third Part Dependencies
+## Third Party Dependencies
 
 There are a couple of third party dependency things happening right now.
 
@@ -46,7 +46,7 @@ and should be moved inside the `libraries` folder
 Upgrading third party dependencies, and migrating them to towards
 `source`
 
-Does moving dependancies to `source` also handle the [glib2.12
+Does moving dependencies to `source` also handle the [glib2.12
 support](https://github.com/osquery/osquery/issues/5745). Not
 directly, though the work may be batched.
 
@@ -181,7 +181,7 @@ https://github.com/osquery/osquery/issues/5811
 ### Shipping packs more generally
 
 There's some discussion about how we ship packs that have
-dis-recommended queries. They're often ineffient. For example, the
+dis-recommended queries. They're often inefficient. For example, the
 browser extensions don't use CROSS JOIN.
 
 Should we ship these at all? By shipping them, we endorse them and
