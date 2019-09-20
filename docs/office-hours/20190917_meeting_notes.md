@@ -2,7 +2,6 @@
 
 [YouTube Recording](https://www.youtube.com/watch?v=GStkartir-Q)
 
-
 ## Highlights since the last meeting
 
 * 4.0.1 Shipped (and 4.0.2)
@@ -41,10 +40,10 @@ AlexM askes what, if anything, was missing from version 4.
 There are a couple of third party dependency things happening right now.
 
 The current `third-party` folder contains the previous Buck libraries,
-and should be moved inside the `libraries` folder
+and should be moved inside the `libraries` folder.
 
 Upgrading third party dependencies, and migrating them to towards
-`source`
+`source`.
 
 Does moving dependencies to `source` also handle the [glib2.12
 support](https://github.com/osquery/osquery/issues/5745). Not
@@ -56,7 +55,6 @@ When we link statically, we lose the ability to use address space
 layout randomization. Deciding what we want here will be a future
 blueprint.
 
-
 ## Planning 4.1.0
 
 Theme: packaging and extensions
@@ -66,7 +64,7 @@ https://github.com/osquery/osquery/milestone/43
 Can we cut something sooner for Zach's work on sqlite. Releases are
 still a lot of toil. This might look like a 4.0.3. Depends a bit on
 what Facebook thinks. (Since they're the ones cutting releases right
-now)
+now).
 
 Probably low priority: some flaky tests were found on either Ubuntu
 18.04 or CentOS 7. These failing tests are not probably caused by
@@ -138,16 +136,16 @@ Initial refactor proposal (Alessandro)
 - Enable tarball support
 
 What does standalone mean?
-- the`install` target moves to the main cmake files (honors
+- The `install` target moves to the main cmake files (honors
   DESTDIR/PREFIX)
-- The cpack configs would become separate. This enables cpack to be
-  run standalone or as part of the makefile
+- The CPack configs would become separate. This enables CPack to be
+  run standalone or as part of the Makefile
 
-Does cpack support what we want? It's a monolithic c++ program, so we
+Does CPack support what we want? It's a monolithic c++ program, so we
 get what it does. But, it mostly calls system tools, and it offers
 various hooks to those.
 
-cpack isn't a great tool for the folks that understand the native
+CPack isn't a great tool for the folks that understand the native
 packaging tools. It's a pretty big wrapper, and it's hard to
 understand. This isn't a blocking objection, ultimately someone owns
 the code, so someone will need to be happy about it.
@@ -162,8 +160,8 @@ https://github.com/osquery/foundation/issues/19
 
 We want to give people the ability to help us. (Mike Myers @ ToB is
 the catalyst this time). It seems like the most correct way here is to
-use the github _triage_ role. But, this doesn't seem to be present in
-our github organization.
+use the GitHub _triage_ role. But, this doesn't seem to be present in
+our GitHub organization.
 
 seph and Teddy have both reached out to github about changing our
 plan, but we have not yet heard back.
@@ -173,8 +171,7 @@ Mike committer access. There are no verbal objections in the
 meeting. seph, groob, and Zach are all available for private slack
 messaging if people have objections they want to bring up privately.
 
-
-## False positives in macos attack Keyboard_Event_Taps query
+## False positives in macOS attack Keyboard_Event_Taps query
 
 https://github.com/osquery/osquery/issues/5811
 
@@ -196,4 +193,3 @@ the docs, [rhq](https://rhq.reconinfosec.com). Of course none of these
 are real enough to serve this purpose yet.
 
 If we did make this change, it would be breaking. So we should announce it via the blog.
-z
