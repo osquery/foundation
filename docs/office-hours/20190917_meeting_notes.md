@@ -51,9 +51,9 @@ directly, though the work may be batched.
 
 ## Reproducible builds
 
-When we link statically, we lose the ability to use address space
-layout randomization. Deciding what we want here will be a future
-blueprint.
+If we link statically, we lose the ability to use address space
+layout randomization (due to lack of static PIE).
+Deciding what we want here will be a future blueprint.
 
 ## Planning 4.1.0
 
