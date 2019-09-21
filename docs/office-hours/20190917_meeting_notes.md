@@ -193,3 +193,5 @@ the docs, [rhq](https://rhq.reconinfosec.com). Of course none of these
 are real enough to serve this purpose yet.
 
 If we did make this change, it would be breaking. So we should announce it via the blog.
+
+Update: This spawned a discussion in https://github.com/osquery/foundation/issues/28
