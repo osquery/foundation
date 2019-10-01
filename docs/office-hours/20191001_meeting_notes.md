@@ -1,5 +1,6 @@
 # osquery office hours 2019-10-01
 
+YouTube: https://www.youtube.com/watch?v=paVgZTBQLSg&list=PLciHOL_J7IwpSUHLTNwMZFaQAcSRSTIkI&index=10&t=0s
 ## Highlights since the last meeting
 
 ## Outreach
