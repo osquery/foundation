@@ -20,7 +20,7 @@ Need to revist `http_client` and changes in (PR #5606) to check IPv6 compatibili
 ## Extensions support
 
 * (PR #5851) is ready
-* A small number of previously exported functions are no longer available as they were removed from the codebase. If they are no longer used internally, we should treat as dead code and we can remove them. In particular, this is in reference to two functions for serializing/deserializing json -- consensus is that they should be implemented in extensions if needed
+* A small number of previously exported functions are no longer available as they were removed from the codebase. If they are no longer used internally, we should treat as dead code and we can remove them. In particular, this is in reference to two functions for serializing/deserializing json -- consensus is that they should be implemented in extensions if needed. (https://github.com/osquery/osquery/issues/5878)
 * Boundaries of the SDK are not defined, resolving expectations can be a follow-up discussion.
 * Need test for empty extension call failing back to looking up internal registries. Will depend on (PR #5836)
 
