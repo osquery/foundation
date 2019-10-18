@@ -12,9 +12,9 @@ Link to YouTube recording: https://youtu.be/4O_519SZQpQ
 
 ## Updates from Facebook
 
-Groob asks if Ryan can be engaged again. This may not be the best time for Ryan. Ted will try to find out.
+Groob asks if Ryan will be engaged again. We learn that this may not be the best meeting time for Ryan. Ted will try to find out.
 
-Ted is merging bug fixes from GH to FB and the recent issue about http tests was created due to IPv6 testing. 
+Ted is merging bug fixes from GH to FB. It's been pretty smooth. One recent issue about http tests was created due to IPv6 testing. (https://github.com/osquery/osquery/issues/5883)
 Need to revist `http_client` and changes in (PR #5606) to check IPv6 compatibility.
 
 ## Extensions support
@@ -35,10 +35,11 @@ We found fixes for all CPack issues. The remaining issues are details and there 
 * Code that Azure runs is indirectly user-controllable (land a sneaky PR) and could leak the keys.
 * Azure keyvault has been explored, provides an HSM, and uses an API that most likely does not work with packaging tooling. These tools do not allow the flexibility we need, cannot provide a signed hash.
 * Someone should take on exploring alternatives. One proposal is to separate CPack code into another repo that is frozen. Then only support TGZ (target for another release) building within osquery/osquery. Finally we create pipeline to ship the results of the osquery CPack build to a builder using the frozer repo, which also has the signing keys available.
+* see also https://github.com/osquery/osquery/issues/5689
 
 ## OpenSSL and macOS Catalina
 
-We need to switch Windows and macoS to use CMake/formula version. 
+We need to switch Windows and macOS to use CMake/formula version. 
 
 * Sharvil: Upgrading to 10.15 SDK has issues.
 * Sharvil: On 10.15 there doesn't seem to be a way to have `/usr/include`.
@@ -60,15 +61,16 @@ Documentation: https://wiki.openssl.org/index.php/Compilation_and_Installation#M
 
 ## Apple Developer Account
 
-We need Apple account for osquery. These will be a required with notarizing macOS packages going forward.
+We need Apple account for osquery. These will be a required with notarizing macOS packages going forward. (https://github.com/osquery/foundation/issues/3)
 
 (Sharvil); Able to notarize a simple hello world binary w/ his personal account. Unsure yet how to go about with pkgs. This needs investigating.
 
 Seph via slack: The Linux foundation has said they don't have an ADC account. It's on us to run that riddle trail. And either pay, or get the tax id for LF
 
+seph via PR review: seph has done a bunch of notarization around launcher. Once we have an ADC account, the commands are pretty straightforward. See https://github.com/osquery/osquery/issues/5894
 ## `auditd` vs `audisp`
 
-Issue #5594.
+Issue https://github.com/osquery/osquery/issues/5594
 
 Nishant (Uptycs):
 * replace `auditd` over a period of time to `auditsp`.
@@ -85,6 +87,7 @@ Nishant (Uptycs):
 * Github notifications are not helpful. It would be nice to have a Slack channel where people can request review.
 * Zach: We now have `#code-review` channel in Slack. We should update PR template to mention a blurb about it.
 * Ted: We should have more committers. General consensus is that we should reach out to involved community members with previous contributions.
+* See also https://github.com/osquery/foundation/issues/36
 
 ### Hacktoberfest
 
@@ -93,6 +96,7 @@ Nishant (Uptycs):
 * We need to help newer contributors and might have to walk them through code-reviews and give them time to act before labeling PRs as `invalid`
 * Perhaps have a "how to contribute to osquery" guide with expectations.
 
+Note that the `#hacktoberfest` label is not needed for hacktoberfest to count the contribution. Contributors likely appreciate it, but hacktoberfest will recognize everything that isn't tagged `invalid`
 ## Misc
 
 * C++17 support would be nice, especially interested in `string_view`. This seems to be doable on Windows and macOS.
