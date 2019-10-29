@@ -1,5 +1,7 @@
 # osquery office hours 2019-10-29
 
+YouTube Recording: https://youtu.be/z3mEHMvepgA
+
 ## Announcements and Highlights since the last meeting
 
 * Lots of PRs for the build process
