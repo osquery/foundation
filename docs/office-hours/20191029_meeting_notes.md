@@ -7,7 +7,7 @@ YouTube Recording: https://youtu.be/z3mEHMvepgA
 * Lots of PRs for the build process
   - Work around for the git submodule issue (https://github.com/osquery/osquery/pull/5892 https://github.com/osquery/osquery/pull/5897)
 * Fuzzing getting integrated (Thanks @tomrittervg)
-* Several more tests enabled(Thanks hacktoberfest!)
+* Several more tests enabled (Thanks hacktoberfest!)
 * Nick helped us out with some of the Buck issues!
 * Extensions
 
@@ -33,27 +33,27 @@ https://github.com/osquery/osquery/pull/3482
 
 Some conversation about what's happening here. Is Facebook working on
 the events stuff? They started some work on ev2, there is no work
-that's happened off github. (It's sounds like this work is a bit on
-hold)
+that's happened off GitHub. (It's sounds like this work is a bit on
+hold.)
 
 Alex mentiones that bypassing along isn't a big win, since you still
 need to cache the events. He's got a couple of upcoming PRs that help
 with this path.
 
-Nishant comments that you may not need to run through the sql staging
+Nishant comments that you may not need to run through the SQL staging
 area, instead you might want to push the full event stream
 remotely. This approach does not allow for conditional contraints on
 what's forwarded. Though Uptycs may have some filtering in their
 config file.
 
 seph (@directionless) comments that this sounds like it's getting
-_away_ from the underlying sql model of osquery. This feels like
+_away_ from the underlying SQL model of osquery. This feels like
 something that should have an blueprint and conversation about how
 architectural vision looks like. (ev2? CEP?) Some discussion about
-whether or not sql is core to what osquery is.
+whether or not SQL is core to what osquery is.
 
 Further discussion about whether event data even makes sense inside
-the context of sql. Joining has an inherent race condition. But we
+the context of SQL. Joining has an inherent race condition. But we
 think that filtering is a major use case.
 
 https://github.com/osquery/osquery/issues/5966
@@ -86,7 +86,6 @@ Nick asks if we've moved the MSI packaging to cpack. We think the MSI
 packaging is using cpack, but we probably need to update the
 chocolatey process.
 
-
 ## Developer happiness
 
 ### inconsistent include paths
@@ -105,7 +104,6 @@ the experimental branch was moving from `""` to `<>` - Alessandro)
 
 (Teddy is probably going to take a pass at this)
 
-
 ### Link Dependencies / 'Series-of-linkage targets'
 
 If you look into CMakeLists files there is a static list of linkage
@@ -116,7 +114,6 @@ list of linkage targets per-folder? For example, all files in the
 This is related to https://github.com/osquery/osquery/issues/5916 (which is a larger issue)
 
 (Teddy is probably going to take a pass at this)
-
 
 ### Test refactor
 
@@ -189,7 +186,7 @@ attached to the card!
 Alessandro reported some issues with international credit cards.
 
 We've reached out to the PM for Community Bridge Funding to ask about
-international cards and paypal
+international cards and paypal.
 
 We should link to it from the web site https://github.com/osquery/osquery-site/issues/154
 
@@ -209,13 +206,12 @@ Are there killswitch users? There is a PR to remove this 'unused' feature.
 
 Sounds like no users in office hours. We think that people see the PRs going by.
 
-
 ## Short overview of notarization and how it affects osquery going forward
 
-Folks asked for information about apple's notarization. Seph can give
+Folks asked for information about Apple's notarization. Seph can give
 a quick overview. There's a some additional notes in
 https://github.com/osquery/osquery/issues/5894 (Note that this is
-seph's understanding. This is not apple policy)
+seph's understanding. This is not Apple policy.)
 
 Apple has several layers of things that help protect end users. This
 are generally all enforced by the gatekeeper process. Gatekeeper runs
@@ -225,8 +221,8 @@ power user, you can always remove the extended attribute for testing,
 but we should be notarizing.
 
 Codesigning has been around awhile. This process requires someone with
-a apple dev account to sign the binaries and packages. This
-verification is inherently local. "Is it signed by a valid cert"
+an Apple dev account to sign the binaries and packages. This
+verification is inherently local. "Is it signed by a valid cert."
 
 There's a new requirement, "notarization", which is about submitting
 the binary/packages to Apple for an offline malware scan. This is an
@@ -250,5 +246,5 @@ Do we have an ETA?
 In January 2020, the requirements for notarization become a bit
 stricter. (well, they revert to what they were prior to apple relaxing
 them). Notably, we must codesign to use the hardened runtime. We
-should test that things work
+should test that things work.
 
