@@ -1,5 +1,7 @@
 # osquery office hours 2019-11-12
 
+YouTube Recording: https://www.youtube.com/watch?v=51dd2DpVtKc
+
 ## Announcements and Highlights since the last meeting
 
 - Various fixes to table which implement indexes (or do not), thanks
