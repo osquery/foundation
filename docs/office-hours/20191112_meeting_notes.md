@@ -7,15 +7,15 @@ YouTube Recording: https://www.youtube.com/watch?v=51dd2DpVtKc
 - Various fixes to table which implement indexes (or do not), thanks
   packetzero!
 - Starting to port more and more third party libraries to the source
-  layer on macOS and Windows, thanks Teddy and Zach!.
-- Extension are back! Big thanks there
+  layer on macOS and Windows, thanks Teddy and Zach!
+- Extensions are back! Big thanks there
 
 ## 4.1 Release
 
-4.1.0 shipped. Had some issues. Now we're looking at 4.1.1
+4.1.0 (a pre-release) shipped. Identified some issues. Now we're looking at 4.1.1
 https://github.com/osquery/osquery/milestone/45
 
-We should probably talk about the issues in there:
+We should probably talk about the known issues:
 
 ### Mac sdk issues -- #5993
 
@@ -32,10 +32,10 @@ behaviour, e.g., global state usage.
 After some discussion, we think we should just add the command line
 flag to target the old SDK.
 * This would bring back older OS support. There's value in providing
-  tools with visibility on older platforms
-* The best way to fix this is to move libraries to the source layer (ongoing)
-* The libraries are pretty isolated, unlikely to have shared global state
-* The risk of problems is smaller than the benefit
+  tools with visibility on older platforms.
+* The best way to fix this is to move libraries to the source layer (ongoing).
+* The libraries are pretty isolated, unlikely to have shared global state.
+* The risk of problems is smaller than the benefit.
 
 ### User warnings -- #6001
 
@@ -49,10 +49,9 @@ We discussed this for a bit, and decided that:
 * We should merge #6014, removing the warnings. As it stands, that's
   dead and misleading code that has CPU cost associates with it.
 * We should investigate how to get the warnings back. Surfacing better
-  errors to users is helpful
+  errors to users is helpful.
 
-
-### extensions compatibility -- #6006
+### Extensions compatibility -- #6006
 
 When we changed how query planning works, we stopped passing column
 constraints to tables that didn't declare they implemented them. As
@@ -62,14 +61,13 @@ extensions. We concluded we should merge it.
 
 But, this brought up two correllaries:
 
-First, we should think about making a better defined api. As is, the
+First, we should think about making a better defined API. As is, the
 thrift API is very open ended. There is broad support for a blueprint
-to make it stricted.
+to make it strict.
 
 Second, we do not have a clear process to deprecate functionality. We
 imagine this would involve a couple releases. Warnings, and then
 removal. We recognize we haven't tackled this.
-
 
 ## Any PRs people want to discuss
 
@@ -96,7 +94,6 @@ How would we test this prior to merge? It doesn't fit well in the
 unit/integration test framework. It would need some manual testing. We
 presume Alessandro would be able to do that testing.
 
-
 ## Release Process
 
 Teddy and seph were chatting about release process stuff --
@@ -107,7 +104,6 @@ Teddy and seph were chatting about release process stuff --
 3. We cut X.Y.Z, and that's it.
 4. When we decide a given tag is stable, we denote that in the github release status and on the website.
 
-
 ## 4.2.0
 
 Anyone want to say something?
@@ -117,7 +113,6 @@ Some floated ideas:
   the source layer
 * automating release process stuff
 
-
 ## Alex is leaving
 
 Alex has a new project, and will no longer be spending much time with
@@ -126,10 +121,9 @@ Vern, who will be taking over osquery at their employer.
 
 Some discussion about moving logger caches to the filesystem. (#6012)
 * Should we move all the loggers to it?
-* Alienvault deployed it, and it was a win
-* Goal was to change TLS logger too, but they hadn't done the work
-* Zach will take this on
-
+* Alienvault deployed it, and it was a win.
+* Goal was to change TLS logger too, but they hadn't done the work.
+* Zach will take this on.
 
 ## What private forks are out there
 
@@ -144,14 +138,13 @@ nit-picked. And, accepting mainline changes requires careful vetting.
 This is aspirational. We're not sure if there's a clear action to
 take.
 
-
 ## Augeas motd Lens
 
 Potential (unconfirmed) arbitrary file read with the message of the
-day lens (Milan posted this in Slack).
+day lens (Milan posted this in Slack). This is NOT included in osquery.
 
 Some converation about whether we want to support this kind of
-arbitrary file system read access.
+arbitrary file system read access. Right now we do not.
 
 It's come up a couple of times in the past, for example, the mdfind
 table. ([#5662](https://github.com/osquery/osquery/issues/5662))
