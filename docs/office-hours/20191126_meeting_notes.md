@@ -18,6 +18,16 @@ table. `local_port` and `local_address` are zero. Though this is
 confusing, it is also what the underlying audit system emits. You need
 to track the calls, and the FDs that are used.
 
+* rows that have the connect action will not have any meaningful local_address/local_port values
+* the opposite is true for the bind actions: remote_port/remote_address will be set to 0/empty
+* this is because we are emitting audit events as we get them in that table
+* a way to fix this would be to correlate the events by file descriptor
+* we could for example track the socket() syscall to save the
+  protocol, then wait for a bind and save the local port/address and
+  then if the same socket is used again in a connect, add the
+  additional data we gathered
+
+
 ## 4.1.1
 
 https://github.com/osquery/osquery/milestone/45
