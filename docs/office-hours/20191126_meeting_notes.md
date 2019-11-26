@@ -176,7 +176,7 @@ https://github.com/osquery/osquery/pull/6081 is open to fix it
 - The osquery toolchain is optimized for static cross linking. This
   work is contrary to supporting system libraries. libunwind is an
   example of this
-- Building with gcc creates a lot of warnings. Should we look at those
+- Building with gcc creates a [lot of warnings](https://gist.github.com/anatol/b7197c7b59a92a568dbbe9595ee24169). We look at those
 - We have a smarttools fork
   - there's a huge divergence with upstream
   - Maybe we can upstream our changes
