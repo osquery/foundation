@@ -44,6 +44,8 @@ This is managed within the Linux Foundation's EasyCLA tool.
 
 Members of the Linux Foundation can help with changes. There is a installed GitHub app called `CommunityBridge: EasyCLA`.
 
+Help with this is best obtained through https://jira.linuxfoundation.org/servicedesk
+
 ### Azure CI
 
 This is maintained by Trail of Bits.
