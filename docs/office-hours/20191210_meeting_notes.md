@@ -1,6 +1,6 @@
 # osquery office hours 2019-12-10
 
-YouTube Link:
+YouTube Link: https://youtu.be/MDMpUXtSHfs
 
 ## Announcements and Highlights since the last meeting
 
