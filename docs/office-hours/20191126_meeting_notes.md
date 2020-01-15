@@ -5,24 +5,24 @@ YouTube Link: https://youtu.be/AKdQxd2ckJ0
 ## Announcements and Highlights since the last meeting
 
 * 4.1.1 has been in pre-releases
-* Fuzzing is live. 
+* Fuzzing is live.
   - You can go to
     https://github.com/google/oss-fuzz/blob/master/projects/osquery/project.yaml
     and add yourself to be notified of discovered crashes.
-  - There are some crashes being found in the config parser
+  - There are some correctness crashes being found in the config parser.
 
 ## Any PRs people want to discuss? Anyone here for help?
 
 There's a question about how to use the `socket_events`
 table. `local_port` and `local_address` are zero. Though this is
 confusing, it is also what the underlying audit system emits. You need
-to track the calls, and the FDs that are used.
+to track the calls, and the file descriptors that are used.
 
 * rows that have the connect action will not have any meaningful local_address/local_port values
 * the opposite is true for the bind actions: remote_port/remote_address will be set to 0/empty
 * this is because we are emitting audit events as we get them in that table
 * a way to fix this would be to correlate the events by file descriptor
-* we could for example track the socket() syscall to save the
+* we could for example track the `socket` syscall to save the
   protocol, then wait for a bind and save the local port/address and
   then if the same socket is used again in a connect, add the
   additional data we gathered
@@ -66,19 +66,17 @@ Are there things users have brought up?
   - windows tables often need love, and optimization
   - batching writes to the database in evented tables
   - There's good-first-issue work around doing column optimizations (plumbing work)
-  - The windows_event table's `data` column is parsed by some hand
-    tooled xml. Moving to ramidxml would be a big
+  - The `windows_events` table's `data` column is parsed by some hand
+    tooled xml. Moving to ramidxml may be a big
     win. https://github.com/osquery/osquery/issues/6083
-
 
 I think we're settling on a windows focus
 
 ## Automatic packages (through CI)
 
-We really want this not to be a manual thing that Teddy does. What are
+We really want this NOT to be a manual thing that Teddy does. What are
 the current blockers? Anything side from doing the work? Any decision
 points to be discussed?
-
 
 CI can already build the packages, but they're not uploaded
 anywhere. Whether it's worth doing this without signing id debatable.
