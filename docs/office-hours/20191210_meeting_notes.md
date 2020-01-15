@@ -142,7 +142,7 @@ more easily supportable.
 
 Since we have some time, anyone want to share anything?
 
-* Sharvil is thinking about a XXXX client
+* Sharvil is working on T2 support
 * Matt K. is planning on working on some bluetooth tables, windows first
 * seph mentions some bugs in the underlying plist table.
 * Alessando is doing neat ebf things [demo](https://asciinema.org/a/1sqjxFStdYo91mAPDdLFMSaa0)
