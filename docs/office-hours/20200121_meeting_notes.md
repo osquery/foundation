@@ -1,6 +1,6 @@
 # osquery office hours 2020-01-21
 
-YouTube Link:
+YouTube Link: https://www.youtube.com/watch?v=xO1o1N5o050
 
 ## Announcements and Highlights since the last meeting
 
