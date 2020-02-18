@@ -1,6 +1,7 @@
 # osquery Office Hours 2020-02-18
 
 YouTube Link: https://www.youtube.com/watch?v=T6Zb7GpwxqY
+
 ## Announcements and Highlights since the last meeting
 
 - Osquery 4.2.0 in pre-release, contains an important TLS CVE fix on
