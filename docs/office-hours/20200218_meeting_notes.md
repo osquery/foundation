@@ -68,7 +68,7 @@ Possible ways of reaching people:
 * Notice on Slack
 * Twitters
 
-We can start brainstorming questions in a foundation ticket.
+We can start brainstorming questions in a foundation ticket -- https://github.com/osquery/foundation/issues/51
 
 ## Misc
 
