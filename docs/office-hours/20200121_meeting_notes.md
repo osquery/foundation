@@ -8,10 +8,9 @@ YouTube Link: https://www.youtube.com/watch?v=xO1o1N5o050
 - Thanks to farfella for all the work put into the windows
   UTF8<->UTF16 PR https://github.com/osquery/osquery/pull/6190
 
-
 ## Windows UTF8<->UTF16 PR #6190
 
-Generally looks good, some c++ performance and optimization
+Generally looks good, some C++ performance and optimization
 discussion.
 
 Discussion about how this could be implemented:
@@ -76,7 +75,6 @@ Is there anyone in Facebook who might be good to review it? Alexander
 would be ideal, but he's not really involved. We might be able to get
 something from Ryan.
 
-
 ## 4.2.0 Release milestone
 
 General themes:
@@ -111,10 +109,9 @@ c. commitments about how to do things
 
 There is a commons problem here -- Are there people who can provide
 testing for nightly or pre-release builds. Lots of people rely on a
-stable OS query, but we don't think we a clear issue of people that
+stable osqury, but we don't think we a clear issue of people that
 can run the betas. If we know what we want, we might be able to fund
 raise for something here.
-
 
 ## TSC Update
 
@@ -134,7 +131,6 @@ The big one is that we've started merging PRs, and there are stable
 releases!
 
 If people have other items, tell zwass on slack
-
 
 ## Build speed/caching Windows
 
