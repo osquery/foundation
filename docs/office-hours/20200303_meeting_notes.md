@@ -1,6 +1,6 @@
 # osquery office hours 2019-03-03
 
-YouTube Link:
+YouTube Link: https://www.youtube.com/watch?v=ELhVU8R8q4k
 
 ## Any PRs people want to discuss
 
