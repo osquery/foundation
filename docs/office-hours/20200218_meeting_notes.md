@@ -50,14 +50,12 @@ Super cool stuff.
 
 https://asciinema.org/a/302647
 
-
 ## TSC Updates
 
 A bit ago Facebook proposed replacing Ryan with
 Nick. https://github.com/osquery/foundation/issues/47
 
 There's broad agreement for this. So we'll go ahead and do it.
-
 
 ## Community
 
