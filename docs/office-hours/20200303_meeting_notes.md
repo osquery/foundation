@@ -9,9 +9,7 @@ YouTube Link: https://www.youtube.com/watch?v=ELhVU8R8q4k
 Alessandro has started some work on Windows eventing
 batching. https://github.com/osquery/osquery/pull/6280
 
-A bit of digression with Nick about [cosine similarity in the
-powershell_events
-table](https://github.com/osquery/osquery/blob/ae66d8f3bc367f9300fb83213c9e762989c34fa5/osquery/tables/events/windows/powershell_events.cpp#L73). How
+A bit of digression with Nick about [cosine similarity in the powershell_events table](https://github.com/osquery/osquery/blob/ae66d8f3bc367f9300fb83213c9e762989c34fa5/osquery/tables/events/windows/powershell_events.cpp#L73). How
 to use it. Speculative conversation about what other statistical
 functions could be interesting. (bloom filters? Hyperloglog?)
 Discussion of sql functions in core, vs extensions.
@@ -24,7 +22,7 @@ Several of us have tested the binaries, but not the packages.
 
 ## 4.2.1
 
-Someone asked on slack that we set a due date, so I picked 2020-05-01,
+Someone asked on Slack that we set a due date, so I picked 2020-05-01,
 about 2 months after 4.2.0.
 
 ## macOS packages
@@ -41,8 +39,7 @@ App bundles are needed for:
 * Events
 * TCC permissions are often app bundle driven
 * the endpoint security needs a provisioning profile. Which needs a
-  filesystem structure, which is most of what an app bundle
-  is. [apple's
+  filesystem structure, which is most of what an app bundle is. [apple's
   doc](https://developer.apple.com/library/archive/technotes/tn2206/_index.html)
 
 It's not yet clear that we need one. Though the endpoint security is a
