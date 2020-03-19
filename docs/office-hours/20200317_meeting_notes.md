@@ -1,6 +1,6 @@
 # osquery Office Hours 2020-03-17
 
-YouTube Link:
+YouTube Link: https://youtu.be/4wfBVkcpCGU
 
 ## Highlights since the last meeting
 
