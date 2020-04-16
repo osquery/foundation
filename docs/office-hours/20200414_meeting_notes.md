@@ -71,12 +71,12 @@ When `osql` first brought cmake in, many compromises were made to be
 compatible with Buck. Now that we have removed Buck, the cmake can be
 simpler.
 
-Some discussion about how this translates to depenancies. It's
+Some discussion about how this translates to dependencies. It's
 positive to have explicit defines for each target. But, that makes it
 hard to use an in IDEs. Also, the folder structure isn't on disk,
 which makes using external tools harder.
 
-One thing we can do now, is to start refacoring names to be
+One thing we can do now, is to start refactoring names to be
 shorter. This should be able to happen aside from any include
 organziational questions.
 
