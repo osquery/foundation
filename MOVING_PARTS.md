@@ -28,6 +28,9 @@ The users and owners include the osquery TSC.
 
 Usage is free via a yearly check-in here: https://github.com/1Password/1password-teams-open-source
 
+### Officialish Information
+
+We have a phone number in Twilio, it forwards places.
 
 
 ## Development Things
