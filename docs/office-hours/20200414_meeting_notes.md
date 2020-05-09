@@ -14,7 +14,7 @@ This came up last week. The PR includes both statuses and statements,
 and there's been some discussion about whether the statements are
 needed.
 
-Some discussion about this, is that there's general hesitency. This is
+Some discussion about this, is that there's general hesitancy. This is
 probably stemming from queries being very large, and that it should be
 already available to the server. This can increase log storage, and
 network requirements.
@@ -77,12 +77,12 @@ simpler.
 
 Some discussion about how this translates to dependencies. It's
 positive to have explicit defines for each target. But, that makes it
-hard to use an in IDEs. Also, the folder structure isn't on disk,
+hard to use an IDEs. Also, the folder structure isn't on disk,
 which makes using external tools harder.
 
 One thing we can do now, is to start refactoring names to be
 shorter. This should be able to happen aside from any include
-organziational questions.
+organizational questions.
 
 ## 4.3.0 Release
 
