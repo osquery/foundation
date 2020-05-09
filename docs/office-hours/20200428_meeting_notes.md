@@ -11,15 +11,14 @@ YouTube Link: https://www.youtube.com/watch?v=KucpoVbc-ss
 
 ## Apple Developer Cert is in flight
 
-A couple of questions came up about the state of apple code
+A couple of questions came up about the state of Apple code
 signing. Specifically whether any of the new options in XCode effect
-us. seph thinks that this doesnt not effect us. Those options
+us. Seph thinks that this doesnt not effect us. Those options
 correspond to how we invoke `codesign`, and we're using appropriate
 ones to support notarization.
 
-seph did submit our information for an apple developer cert. There are
+Seph did submit our information for an Apple developer cert. There are
 some followup questions. Things are ongoing.
-
 
 ## BPF Stuff
 
@@ -43,9 +42,9 @@ Alessandro is in the midst of refactoring...
 
 ## TLS Certs
 
-`*.osquery.io` was in facebook's cert management cloud, and was
+`*.osquery.io` was in Facebook's cert management tools, and was
 expiring. As osquery is already running inside AWS, Teddy moved the
-cert management into one of the AWS services.
+cert management into one of the AWS services, AWS is now the root.
 
 ## osquery container PRs column names
 
@@ -53,7 +52,7 @@ A bit of a nitpick about naming. This is meant as a fun conversation,
 not a strong criticism.
 
 The current direction adds a long column name to tables. How do we
-feel about that? Does having it hidden mitgate it? Given security
+feel about that? Does having it `HIDDEN` mitgate it? Given security
 software's penchant for long explcit names, this may be a non-issue.
 
 Discussion about whether or not this can be a `HIDDEN` column. That
@@ -77,7 +76,7 @@ getting right implementations now
 
 ## Discussion about how we can test features / tables
 
-Spawning off from the discussion about osquery container. How would we
+Spawning off from the discussion about osquery and containers. How would we
 support things like _beta_ tables or columns, that might change as we
 explore their uses.
 
