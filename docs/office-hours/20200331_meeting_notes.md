@@ -13,7 +13,7 @@ PRs they feel blocked on.
 
 https://github.com/osquery/osquery/pull/6352
 
-seph asks if this impacts any of the SDKs, extensions, or
+Seph asks if this impacts any of the SDKs, extensions, or
 servers. There shouldn't be a direct upgrade problem, this does not
 touch thrift. But this does change the json responses, so if anyone
 has a strict json parsing enabled, it might break that, but we are not
@@ -42,11 +42,11 @@ ToB had a customer that had issues here. Rocksdb was triggering a
 write per event, and was unable to keep up. This caused rocksdb
 lockups. This PR changes that model, and adds tests.
 
-The linux and macOS implementations have already been updated. This is
-bringing windows to feature parity, it uses the same add batch api
+The Linux and macOS implementations have already been updated. This is
+bringing Windows to feature parity, it uses the same add batch API
 introduced prior.
 
-Some related conversation about rocksdb constraints. In the past we
+Some related conversation about Rocksdb constraints. In the past we
 had relaxed some constraints. As we move the high volumes writes, can
 we re-enable those? It sounds like we need transaction support first
 -- Sometimes we touch multiple keys, so without transaction support,
@@ -61,7 +61,7 @@ comment on". Vern mentions that they're tracking some places where the
 existing implemenetion doesn't have some attributes.
 
 Alessandro proposes we remove the database index on events. Instead
-that can be kept in ram. This would cut down on the database writes,
+that can be kept in RAM. This would cut down on the database writes,
 and we _think_ also remove some of the errors on DB upgrade. We think
 this work can happen separately.
 
@@ -106,11 +106,11 @@ that the batch changes Alessandro made may make this less required.
 PolyLogyx? https://github.com/polylogyx/osq-ext-bin#2-applying-filters
 
 A bit of a sprawling conversation about what the vision of osquery is.
-* Are we a sql engine / interface?
-* Do we want to just stream events, that gets away from the sql engine
+* Are we a SQL engine / interface?
+* Do we want to just stream events, that gets away from the SQL engine
 * There are pragmatic arguments
 * Practically speaking, you probably can't join usefully anyhow. So maybe we should embrace it
-* Maybe there'a some other OSS work around streaming and sqlite.
+* Maybe there'a some other OSS work around streaming and SQLite.
 
 ## AArch64 support
 
