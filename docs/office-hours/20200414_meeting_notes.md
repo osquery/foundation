@@ -7,6 +7,7 @@ YouTube Link: https://www.youtube.com/watch?v=JlV3YkJ5rDI
 ## Any PRs people want to discuss
 
 ### Add status and statements to distributed query results
+
 https://github.com/osquery/osquery/pull/6352
 
 This came up last week. The PR includes both statuses and statements,
@@ -26,12 +27,14 @@ agreed on, and can be merged. And we can keep discussing the
 statements?
 
 ### Implement event batching support in Windows tables
+
 https://github.com/osquery/osquery/pull/6280
 
 On Nick's plate. Nick and Alessandro will meet to walk through the
 changes.
 
 ### Implement container access from tables on Linux
+
 https://github.com/osquery/osquery/pull/6209
 
 Zach had approved, but the rebase cleared that. Should be an easy
@@ -41,6 +44,7 @@ ToB is also excited to write a blog post for this and the related
 table improvements in PRs blocked by this one.
 
 ### HTTP Events table
+
 https://github.com/osquery/osquery/pull/6366
 
 We want to encourage Uptycs to contribute, and make it reasonable for
@@ -114,7 +118,7 @@ to use them. Actions to automate the website deployment came up.
 
 ## Foundation Update (DUNS Number, codesigning certs)
 
-seph has been working through getting code signing moved from Facebook
+Seph has been working through getting code signing moved from Facebook
 to osquery. One of the things needed for an organizational Apple
 Developer Account is a DUNS number. Last week we finally got one.
 
