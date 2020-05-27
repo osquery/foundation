@@ -1,6 +1,6 @@
 # osquery office hours 2020-05-26
 
-YouTube Link:
+YouTube Link: https://youtu.be/eUWhmqkued8
 
 ## Announcements and Highlights since the last meeting
 
