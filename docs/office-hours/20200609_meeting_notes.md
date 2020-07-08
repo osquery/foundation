@@ -60,16 +60,16 @@ Meanwhile, we have `osqueryfoundation`.
 
 Within the next 30 days, Teddy's code signging cert will expire. So,
 this makes it a good oppertunity to revisit code signging certs and
-automation.
+automation. (Message from the Future: certs were renewed for another few years)
 
 Open Questions:
 * Where to artifacts go?
-    * seph thinks s3, probably
+    * seph thinks s3, probably (correct!)
 * How do we move keying material around?
-    * Where is it stored?
+    * Where is it stored? (right now, in 1password)
     * How is it moved into the Azure pipeline?
 * Are we using HSMs?
-    * seph thinks not
+    * seph thinks not (nope)
 * Seperate Repo
     * We should start simple, we can defer this
 * Probably also need a osquery azure account
