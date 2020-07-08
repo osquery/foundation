@@ -16,13 +16,12 @@ Broad questions? Bugs? Deployment questions? Blocked PRs?
 https://github.com/osquery/osquery/pull/6546
 
 sqlite uses int64, and there is no real way to represent a
-uint64. But, some OS apis return uint64s. Should we create a general
+uint64. But, some OS APIs return uint64s. Should we create a general
 purpose handler here?
 
 Conclusion is no. This should not be a general purpose
 thing. Knowledge how to handle that is going to be table specific, and
 should be left in the table's implementations.
-
 
 ### A generic scan engine callback
 
@@ -42,7 +41,7 @@ A side conversation about whether it's valuable to have the
 configuration file specify the resources, which would then used. Not
 clear there's agreement yet.
 
-This should become a blueprint
+This should become a blueprint.
 
 ## Agenda down here
 
@@ -65,7 +64,7 @@ https://github.com/osquery/osquery/issues/6428
 > selected as part of * if in predicate" features a reality?
 
 This is a request for conversation in the ticket, and reminder about
-the discussion
+the discussion.
 
 ## 4.5.0 vs 5.0.0 issue labeling
 
@@ -79,20 +78,20 @@ Is there someone who can volunteer to help set this up?
 * magneto (on slack)
 
 Current state (from seph): 
-* We have an aws org structure
+* We have an AWS org structure
 * It's linked to seph's personal credit card, we should be within free
   limits
 * We should be using cross-org trusts
 * We should be using terraform or cloud formation
-* Should it link to gsuite's SSO?
+* Should it link to gSuite's SSO?
 * We need:
-    * s3 package repo
-    * cloud front for domains
-    * route53 for dns
-    * aarch64, maybe
+  * S3 package repo
+  * CloudFront for domains
+  * Route53 for DNS
+  * Aarch64, maybe
 
-Open questions about what lives in AWS vs gsuite. AWS has some nice
-integration between cloud balancing, TLS management, and route53.
+Open questions about what lives in AWS vs gSuite. AWS has some nice
+integration between load balancing, TLS management, and Route53.
 
 Discussion about whether or not to apply for an AWS grant. They're
 supposed to be generous, and there's some value in maybe just doing
@@ -103,10 +102,10 @@ bit.
 
 ## GitHub Actions / Release Pipeline (seph)
 
-With the intention of building a release pipeline, seph spent awhile
+With the intention of building a release pipeline, seph spent a while
 this weekend playing with GitHub actions. It feels like an update to
-azure pipelines, and with Stefano's existing Azure work was relatively
-straight forward to get mac builds up and running. This work is not
+Azure pipelines, and with Stefano's existing Azure work was relatively
+straight forward to get macPS builds up and running. This work is not
 yet a PR, but can be seen over in a [personal
 fork](https://github.com/directionless/osquery/pull/2)
 
@@ -119,7 +118,7 @@ email. Confusingly, the email claims it's a trial. This is
 incorrect. We have an open source account detailed
 [here](https://github.com/1Password/1password-teams-open-source#osquery).
 
-seph sent a renewal email
+seph sent a renewal email.
 
 ## Community
 
@@ -142,7 +141,6 @@ money and value things.
 
 https://www.bountysource.com is something in this space.
 
-
 ## Look at old PRs 
 
 _(If there's time, we've been trying to re-visit old PRs)_
@@ -150,4 +148,4 @@ _(If there's time, we've been trying to re-visit old PRs)_
 [Reverse Sorted List of
 PRs](https://github.com/osquery/osquery/pulls?q=is%3Apr+is%3Aopen+sort%3Acreated-asc)
 
-We talked about some
+We talked about some.
