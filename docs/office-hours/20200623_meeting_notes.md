@@ -19,9 +19,9 @@ What could be locked down? We could start by allowing full read
 access. What kinds of things might it never need? Are there specifics
 it would lose access to? How would this work for forensics or IR?
 
-There is some prior art in osquery around dropping privledges. For
-example, we drop privledges when we access the rpm or deb, to keep
-from modifying.
+There is some prior art in osquery around dropping privileges. For
+example, we drop privileges when we access the rpm or deb, to keep
+osquery from unintentionally modifying state.
 
 Maybe we can limit filesystem write access?
 
@@ -44,7 +44,7 @@ longer working.
 If it's the `file` table throwing warnings, it's probably not an
 osquery row. Speculation that maybe some rows are missing the path.
 
-General conclusion is that we're happy to help debug sql, slack or are
+General conclusion is that we're happy to help debug #sql, slack or are
 the best route for that.
 
 ## Agenda down here
@@ -62,7 +62,6 @@ uptime. https://github.com/osquery/osquery/issues/6395
 specifically. While we can defer solving the larger "what does uptime
 mean" question, we probably should fix the tests.
 
-
 ## 4.4.0
 
 https://github.com/osquery/osquery/milestone/49
@@ -72,9 +71,9 @@ Alessandro thinks it's mergable now, and may want a followup PR
 explaining how the test data was generated. Conclusion -- merge now.
 
 We think it's worth holding 4.4.0 for some of these merges. There is a
-flakey test, but some ci failures that might be real. So we think:
-* We should disable the flakey test (pending a real fix in #6395)
-* If we can positively confirm CI flakeyness, we can merge over that
+flaky test, but some ci failures that might be real. So we think:
+* We should disable the flaky test (pending a real fix in #6395)
+* If we can positively confirm CI flakiness, we can merge over that
 
 Needing code review (CI tests are flaky)
 - https://github.com/osquery/osquery/pull/6513 (flaky test + code review)
@@ -87,7 +86,6 @@ Should we land and follow up PR with tests?
 
 Should we land and follow up with documentation?
 - https://github.com/osquery/osquery/pull/6280 (merge it!)
-
 
 ## WWDC
 
