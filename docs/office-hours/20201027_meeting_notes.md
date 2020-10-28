@@ -26,6 +26,7 @@ Discussion about the info level:
 * Info should probably be understandable from a user perspectie
 * Normal runtime is Info, and it should be be quiet
 
+For example, [`process_open_sockets`](https://github.com/osquery/osquery/pull/6546) returns data that is a `uint64`, but sqlite only supports `int64`. So there is _always_ a cast error here. It's not clear what the right approach should be.
 
 ## Fixing the Thrift build error
 
