@@ -36,7 +36,7 @@ details.
 
 We will need the email address for their apple account. They can
 create a new one, or use an existing one. This should be a
-human. Apple does not like roll accounts.
+human. Apple does not like role accounts.
 
 We need their test machine[s] uuid. This can be gathered with `select
 uuid from system_info;`
