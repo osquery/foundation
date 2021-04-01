@@ -107,7 +107,7 @@ This twitter account is configured to grant various TSC members
 posting permissions in [TweetDeck](https://tweetdeck.twitter.com). You
 should be able to login and use it.
 
-The underlying credentials fare in 1password.
+The underlying credentials are in 1password.
 
 ### Reddit Admins
 
