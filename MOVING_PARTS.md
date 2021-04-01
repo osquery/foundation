@@ -12,7 +12,7 @@
 
 This is owned by the Linux Foundation
 
-The NS is AWS and the zone is managed within Route53 by Facebook (@theopolis).
+The NS is AWS and the zone is managed within Route53 by the osquery account.
 
 ### osquery GSuite
 
@@ -57,7 +57,7 @@ It requires integration into the osquery GitHub org.
 
 ### `osquery-packages` S3
 
-This is maintained by Facebook (@theopolis). The content is 100% public.
+This is maintained by the osquery AWS organization (osquery-storage). The content is 100% public.
 
 It contains dependencies for the build, in some cases pre-built dependencies.
 
@@ -85,6 +85,8 @@ Anyone submitting PRs to osquery can update the documentation.
 
 ### `@osqueryer` GitHub bot
 
+Unused, it existed to route notifications for Jenkins in 2014.
+
 ### Coverity Static Analysis
 
 We have a dashboard page setup at https://scan.coverity.com/projects/osquery 
@@ -98,7 +100,6 @@ Various members of the TSC are project owners.
 There is the Slack workspace, admins include the osquery TSC.
 
 There is a auto-inviter (slackin) configured within a Droplet at https://osquery-slack.herokuapp.com
-
 
 ### `@osquery` Twitter account
 
