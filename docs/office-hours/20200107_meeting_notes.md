@@ -129,7 +129,7 @@ cognizant of that.
 There's been some tinkering around getting into Arch linux.
 
 Two issues...
-1. We need a layer to pull in OS dependancies.
+1. We need a layer to pull in OS dependencies.
 2. Arch doesn't have libc++ in the way we need it
 
 
@@ -144,7 +144,7 @@ windows. He did not find a working open source one.
 When we build libraries in the build folder, the layer is not the same
 as installing a standalone library. This makes it hard for a developer
 to use an existing library install as the dependecy. This would also
-provide a place to shim a cmake dependancy layer.
+provide a place to shim a cmake dependency layer.
 
 Right now, can we just zip the folders up? This might not be possible
 because the headers are in an shared location. Discussion about

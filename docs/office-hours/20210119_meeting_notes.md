@@ -59,7 +59,7 @@ Zach can look
 
 https://github.com/osquery/osquery/pull/6896
 
-We can set the SDK and minimum version seperately. 
+We can set the SDK and minimum version separately. 
 
 We'd like to upgrade the minimum version, so that we can use the `available` macros.
 

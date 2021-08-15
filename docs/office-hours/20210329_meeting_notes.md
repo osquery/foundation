@@ -53,7 +53,7 @@ Folks are intersted in the current state of arm64. A recap from seph.
 
 Background -- osquery compiles and works, but has been left as unofficial beta pending some kind of CI integration. osquery uses GitHub actions for CI, which does not have vendor provided arm64 support. But _does_ provide some options to self-host runners. 
 
-Unfortunatly, GitHub Runners do not have strong security controls for running essentially untrusted code in a PR. GitHub calls this out in their documentation. We are currently expirementing with two approaches to solving this.
+Unfortunately, GitHub Runners do not have strong security controls for running essentially untrusted code in a PR. GitHub calls this out in their documentation. We are currently experimenting with two approaches to solving this.
 
 One approach is to have the GitHub workflow start a runner, do the work, and then stop the runner. Because GitHub needs to start an AWS runner, GitHub much have a suitable AWS secret. **But** GitHub (quite reasonably) won't share this secret with forked repositories. Thus, for this approach to be secure, it can only run on branches in the orignal organization. For our purposes, this means the CI will run after merges to the main branch, and, on any feature branches in the osquery org. While not perfect, this is a pretty good stop gap. This work is in https://github.com/osquery/osquery/pull/7014 and is likely to merge soon.
 
@@ -82,7 +82,7 @@ Several times in the past we've talked about building osquery with fewer tables.
 
 We used to support this, pre-experimental branch
 
-Discussion about how to do it well. Tables would need to have a more clear list dependancies so cmake could do that resolving. 
+Discussion about how to do it well. Tables would need to have a more clear list dependencies so cmake could do that resolving. 
 
 ## Look at old PRs 
 

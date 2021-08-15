@@ -51,7 +51,7 @@ We can probably just rebuild with a different CMAKE options. But would be a bit 
 
 Tagging a 4.6.1 might bring in undesired changes. We could cut a release branch, and cherry-pick. 
 
-Our concensus is that we should build a windows `4.6.0.2` release for this. This is a manual build time option to a straight 4.6.0 build.
+Our consensus is that we should build a windows `4.6.0.2` release for this. This is a manual build time option to a straight 4.6.0 build.
 
 ## CI / Release improvements
 

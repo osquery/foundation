@@ -25,7 +25,7 @@ maintain servers and CI machines. seph is somewhat opposed, as running
 servers incurs complex human costs over time.
 
 
-## System Dependancy Layer
+## System Dependency Layer
 
 The aarch stuff will need this. And the arch folks want it. And a
 hypothetical ubuntu port would use it. Would also help LGTM.
@@ -44,7 +44,7 @@ General theory is that we should:
 
 ## OpenSSL updated to 1.1.1d (https://github.com/osquery/osquery/pull/6302)
 
-Some conversations about how we can't update the dependancies in
+Some conversations about how we can't update the dependencies in
 buck. So this PR updates cmake only. Discussion about whether or not
 we need to keep buck -- https://github.com/osquery/osquery/issues/6305
 

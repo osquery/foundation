@@ -51,7 +51,7 @@ Thinking about it:
 Usecases that might not be obvious:
 * What if you want to preserve the continuty? Either because of upgrades, or hardware replacement
 * Motherboards don't always have real uuids
-* Remember though, subsequent communciation happens on the node-key
+* Remember though, subsequent communication happens on the node-key
 
 General "plan":
 1. Anyone with problems today should probably be using `instance id`

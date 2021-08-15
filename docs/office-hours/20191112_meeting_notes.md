@@ -150,7 +150,7 @@ It's come up a couple of times in the past, for example, the mdfind
 table. ([#5662](https://github.com/osquery/osquery/issues/5662))
 
 We generally think that we cannot stop all leaks. osquery is
-fundementally a tool to expose information, and there are countless
+fundamentally a tool to expose information, and there are countless
 places it will leak. The registry is a good example.
 
 Can we enumerate what data _can_ be accessed, so people can make

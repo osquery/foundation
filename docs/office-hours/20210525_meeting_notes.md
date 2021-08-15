@@ -21,13 +21,13 @@ It's unclear to us whether these are exploitable, or what the severity is. We're
 
 > An integer overflow and several buffer overflow reads in libyara/modules/macho/macho.c in YARA v4.0.3 and earlier could allow an attacker to either cause denial of service or information disclosure via a malicious Mach-O file. Affects all versions before libyara 4.0.4
 
-We think this would allow an unprivledged local user to leave a malicious macho binary around. Which osquery might then scan, and cause the malicious code to run in the osquery context. Eg: This is akin to a local privledge escalation
+We think this would allow an unprivledged local user to leave a malicious macho binary around. Which osquery might then scan, and cause the malicious code to run in the osquery context. Eg: This is akin to a local privilege escalation
 
 ### liblz inside libkafka
 
 https://github.com/osquery/osquery/issues/7097
 
-We think this is a bug in the compression routine. Which, while theoreticaly exploitable, sounds hard to exploit.
+We think this is a bug in the compression routine. Which, while theoretically exploitable, sounds hard to exploit.
 
 ### libmagic
 

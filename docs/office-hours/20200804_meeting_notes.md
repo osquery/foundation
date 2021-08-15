@@ -27,7 +27,7 @@ we'll want to get a CI build for something official.
 ## header reorg
 
 Teddy is almost ready. This will be 700 files. It will require any
-open PRs to be manually rebased. Targetting this week. He may ask for
+open PRs to be manually rebased. Targeting this week. He may ask for
 help tomorrow.
 
 seph can make a copyright change PR pretty fast after that's merged.
@@ -84,7 +84,7 @@ No reliable reproduction yet.
 
 Some speculation:
 * when Nick removed the windows events from core, the static
-  initialization might have started doing soemthing twice.
+  initialization might have started doing something twice.
 * In the config change, we _stop_ all the publishers, then _start_
   them. So there might be a bug there.
 * If osquery has stopped things, but the OS thinks there are still

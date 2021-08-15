@@ -30,7 +30,7 @@ seph thinks this a great idea, Kolide does something like this using live querie
 
 Another use case is for ephemeral machines. If you have machines that only run an hour or two, but need to run at least once, having an run-early setting would simply their management
 
-Have to beware about the watchdog. You might want to delay starting the watchdog until after ther initial runs. This brings back the watchdog API conversation
+Have to beware about the watchdog. You might want to delay starting the watchdog until after there initial runs. This brings back the watchdog API conversation
 
 Related, but not the same, is the idea of a per-query epoch. And should an epoch increment trigger this?
 

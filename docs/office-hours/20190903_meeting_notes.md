@@ -55,7 +55,7 @@ Future work around better automation & CI. This may look like a chroot or a VM f
 
 There's some discussion about whether anyone uses CentOS6, and more broadly, what our user base does.
 
-@theopolis has some ancedotes about why an older libc is interesting, primarily around embedded platforms and routers. He'll try to dig those up.
+@theopolis has some anecdotes about why an older libc is interesting, primarily around embedded platforms and routers. He'll try to dig those up.
 
 This is seen as a larger topic for another time.
 

@@ -30,7 +30,7 @@ There's some indication that there's objective-c support for oslog.
 
 ### Apple Silicon M1
 
-seph has played around a little. Mostly gets lost in the dependancies. Nothing too hard, just updates. Rocksdb might be hard, since there's no release since the m1 code mergd. seph really ought be able to grant remote access to this machine.
+seph has played around a little. Mostly gets lost in the dependencies. Nothing too hard, just updates. Rocksdb might be hard, since there's no release since the m1 code mergd. seph really ought be able to grant remote access to this machine.
 
 ToB might have a machine they're spinning up as well.
 
@@ -49,7 +49,7 @@ Probably missing is a doc about why one would chose `bpf` or `auditd` for proces
 * bpf allows audit to stay running outside osquery
 * Some of this additional CPU comes from resolving file descriptors
 * It's not yet clear there are real world problems with the performance change
-    - We can show differences using pathalogical profiling setups
+    - We can show differences using pathological profiling setups
     - Not yet clear there are real world impacts 
 
 Zach will look into this a bit, and maybe make some recommendations or PRs

@@ -52,7 +52,7 @@ Same story for arm64 -- Seems to work.
 
 ## systemd support
 
-Originally implemented in [PR4019](https://github.com/osquery/osquery/pull/4019), systemd functionality has been reimplemented using dbus. These dependancies have been cleaned up, and these now need review.
+Originally implemented in [PR4019](https://github.com/osquery/osquery/pull/4019), systemd functionality has been reimplemented using dbus. These dependencies have been cleaned up, and these now need review.
 
  - [PR6562](https://github.com/osquery/osquery/pull/6562): Add systemd to **startup_items**
  - [PR6593](https://github.com/osquery/osquery/pull/6593): Add **systemd_units** table
@@ -78,11 +78,11 @@ Issue 6744 observed that opening two extensions can sometimes cause a deadlock. 
 
 Some discussion that the mutexs may be too fine grained. They protect fields, but perhaps they should instead be more transactional?
 
-## Transfering osquery-go to the Foundation
+## Transferring osquery-go to the Foundation
 
 https://github.com/osquery/foundation/issues/65
 
-As there's a majority of TSC quorum at this office hours, seph raised the issue around transfering osquery-go to the foundation. There's broad consensus for this, Kolide is on board, but the MIT license is not something we just can accept. Our charter mandates a different OSS license. We can, however, accept this with a majority TSC vote.
+As there's a majority of TSC quorum at this office hours, seph raised the issue around transferring osquery-go to the foundation. There's broad consensus for this, Kolide is on board, but the MIT license is not something we just can accept. Our charter mandates a different OSS license. We can, however, accept this with a majority TSC vote.
 
 The choices are to leave it in Kolide until it can be relicensed. Or to transfer it and pursue relicensing it under the osquery org. seph thinks it's better to accept it as is.
 

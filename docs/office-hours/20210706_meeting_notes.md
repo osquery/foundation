@@ -16,7 +16,7 @@ Broad questions? Bugs? Deployment questions? Blocked PRs?
 
 ## Privacy vs Forensics
 
-There's been some slack discussion about where the line between privacy and utility lie. For example, there's been requests for Chrome History Items, and Arbitary File Reads tables. The generally consensus of the TSC ... FIXME
+There's been some slack discussion about where the line between privacy and utility lie. For example, there's been requests for Chrome History Items, and Arbitrary File Reads tables. The generally consensus of the TSC ... FIXME
 
 A bit of discussion about ATC tables.
 * They can read Chrome History. Would we consider blocking ATC? Or adding a filter layer to block History? 
@@ -43,7 +43,7 @@ FleetDM's orbit is designed to be an easy drop in for osquery, and Zach says he'
 
 ## Windows NTFS FIM Errors
 
-Sebastiaan on Slack was running into a bunch of windows FIM issues. 
+Sebastian on Slack was running into a bunch of windows FIM issues. 
 
 This looks like a stream of errors like `Failed to remap the rename records`
 

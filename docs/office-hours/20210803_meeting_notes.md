@@ -9,7 +9,7 @@ Some upcoming talks!
 * DEFCON/BTV: workshop on threat hunting using the Osquery agent -- Ben B
     * MacOs Workshop - Hunt for Red Apples: Ocean Lotus Edition
     * https://dc29.blueteamvillage.org/call-for-content-2021/talk/XXLJLJ/
-* DEFCON/BTV: Yeet the leet with Osquery -- Sebastiaan 
+* DEFCON/BTV: Yeet the leet with Osquery -- Sebastian 
     * https://dc29.blueteamvillage.org/call-for-content-2021/talk/VXEQKN/
 * BSidesAugusta: Automatic prefiltering for Osquery: WHERE do I sign up? -- Josh Brower
     * https://bsidesaugusta2021.busyconf.com/activities/60f09155cf2efa007fed7af0
@@ -38,7 +38,7 @@ seph is not a fan, but thinks that if it's easy to maintain in the packaging scr
 
 Stefano thinks there may be places in the code that check on the name. Maybe the pid file?
 
-An alterante route here is that one can not use the osquery packaging. osquery is a binary, you can move it around and do your own service management. 
+An alternate route here is that one can not use the osquery packaging. osquery is a binary, you can move it around and do your own service management. 
 
 
 ## 5.0 Release Milestone
@@ -59,7 +59,7 @@ Any objections to me filing separate issues for each of the dependencies that ne
 
 As a side note, we'll (eventually) need CI. Which brings in a lot of questions about github actions. And a question abouy where we can even host m1 machines. Though we think we can defer this a little.
 
-We might be able to cross compile. Stefano says he make a simple proof of concept that had cmake build univeral binaries. Though if we needed different library versions for different architectures, which would be an issue. 
+We might be able to cross compile. Stefano says he make a simple proof of concept that had cmake build universal binaries. Though if we needed different library versions for different architectures, which would be an issue. 
 
 ## Mutual TLS via the system cert stores
 

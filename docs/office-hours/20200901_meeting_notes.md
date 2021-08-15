@@ -56,14 +56,14 @@ A new contributor, Benjamin, has pushed this a bunch forward. The
 biggest blocker now is to update the commits to include attribution to
 the original author on these.
 
-### Offshoot conversation about managing library dependancies
+### Offshoot conversation about managing library dependencies
 
 A heads up that this adds _additional_ complexity to the already
 complex process of updating libraries. We need to maintain separate
 libraries and artifacts for the builds. This will increase the burden
 of updating libraries to people who have access to this hardware.
 
-We talked some about theoretical ways to manage dependancies. No clear
+We talked some about theoretical ways to manage dependencies. No clear
 conclusions
 
 We probably need documention on how to introduce new libaries. And a
@@ -92,9 +92,9 @@ An discussion in favor is that osquery's job is to abstract this for
 people. Making these useful is a huge value add.
 
 Some discussion about different models people have for using
-osquery. No clear concensus.
+osquery. No clear consensus.
 * seph thinks about osquery as an api translator. It makes
-  inaccessible things accessable
+  inaccessible things accessible
 * Teddy thinks about it as presenting valuable information ready to go
 * Some of this could be presented through packs and queries.
 

@@ -36,7 +36,7 @@ the events stuff? They started some work on ev2, there is no work
 that's happened off GitHub. (It's sounds like this work is a bit on
 hold.)
 
-Alex mentiones that bypassing along isn't a big win, since you still
+Alex mentions that bypassing along isn't a big win, since you still
 need to cache the events. He's got a couple of upcoming PRs that help
 with this path.
 
@@ -164,7 +164,7 @@ slow.
 Alessandro says Ninja would help with this. This is because it
 supports partial builds. (Buck does partial builds)
 
-seph asks if we can use the dependancy layers for this. Answer is that
+seph asks if we can use the dependency layers for this. Answer is that
 while we can do this, using ninja and ccache sound more desirable to
 the cmake people.
 
@@ -227,7 +227,7 @@ verification is inherently local. "Is it signed by a valid cert."
 There's a new requirement, "notarization", which is about submitting
 the binary/packages to Apple for an offline malware scan. This is an
 automated process. There do not appear to be humans in the
-loop. Though it is asyncronous, it's been under an hour.
+loop. Though it is asynchronous, it's been under an hour.
 
 The notarization check is **not** local. It's a call against apple's
 verification servers. However, you can download a certificate of

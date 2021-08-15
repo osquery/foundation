@@ -81,7 +81,7 @@ interface? We could ship helpers or not. This would probably be easier
 for people that don't ever push code to core, but would be harder to
 share code.
 
-Have we ever moved code from an extention to core? No one can remember
+Have we ever moved code from an extension to core? No one can remember
 it.
 
 If we ship a bare sdk, it may make it _harder_ for people to link
