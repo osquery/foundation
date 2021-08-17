@@ -30,9 +30,9 @@ analysis. There's some configs in a PR.
 Current state is that it bumps into the 4h time out. The machines are
 2core, and not super big.
 
-A chunk of time of the build time is in third party dependancies, so
+A chunk of time of the build time is in third party dependencies, so
 if we had a layer that could use pre-compiled ones that might
-help. Discussion about whether or not using the system dependancy
+help. Discussion about whether or not using the system dependency
 layer.
 
 ## BPF stuff

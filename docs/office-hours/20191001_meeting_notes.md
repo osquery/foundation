@@ -38,7 +38,7 @@ Alex mentions that ATT is still in 3.x. What, if anything, can we do to help peo
 
 ## Is osquery 4 seen as stable?
 
-A disgression about whether or not people percieve osquery as a stable piece of software.
+A disgression about whether or not people perceive osquery as a stable piece of software.
 
 What contributes it to seeming stable?
 * Regular releases
@@ -100,7 +100,7 @@ Several points got raised:
 * Packs were always the most accessible part of osquery. You don't need to know C++. You can be excited about threat tracking, and jump in.
 * We need better user education. Some kind of quickstart. How to get going. Query examples.
 * Packs also highlight another common discussion -- What is the point of osquery. Some people use it as to extract data to an SIEM. Some use it as a way to get a clear indicator of something wrong. Some use it as a way to gather basic machine facts. These different approaches have big differences in what kind of queries people want.
-* Differenciate between a useful pack that's ready to do. Versus a example/documentation aimed at educating people in how to do their own things.
+* Differentiate between a useful pack that's ready to do. Versus a example/documentation aimed at educating people in how to do their own things.
 
 General consensus that we should pull the packs into their own repo. We may still include them in the shipped osquery products, but having them in their own repo gives us a place to encourage collaboration and evolve from.
 

@@ -32,7 +32,7 @@ interest is to cut a 4.5.1. We'll discuss on slack
 
 Table has a different name. We think this is correct.
 
-Seperate discussion about CI -- we need to move the build to Catalina
+Separate discussion about CI -- we need to move the build to Catalina
 in order to start testing Endpoint Security. Target SDK is still
 10.12. There are some flaky macOS tests; we should track them in
 issues.

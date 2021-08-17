@@ -19,7 +19,7 @@ packages.
 Apple has approved us for Apple Silicon hardware. It is enroute to
 seph's desk, and when it arrives, he'll figure out access.
 
-Dependancies that use raw assembly, need to have support for apple
+Dependencies that use raw assembly, need to have support for apple
 silicon. Boost is probably one of these, likely zlib as well.
 
 This was graciously covered by Kolide. Thanks!

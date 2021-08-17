@@ -70,7 +70,7 @@ Open Questions:
     * How is it moved into the Azure pipeline?
 * Are we using HSMs?
     * seph thinks not (nope)
-* Seperate Repo
+* Separate Repo
     * We should start simple, we can defer this
 * Probably also need a osquery azure account
     * seph should probably

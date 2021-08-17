@@ -112,7 +112,7 @@ They have internal fixes internally, they would like to upstream. They are plann
 
 ## Office minute taking
 
-Right now, we are hosting the agenda in google docs, but this process involves manual converstion into github/markdown. This conversation is, at best, extra work.
+Right now, we are hosting the agenda in google docs, but this process involves manual conversion into github/markdown. This conversation is, at best, extra work.
 
 Propose that we try one of the online markdown editing sites instead of gdocs. https://hackmd.io is recommended
 

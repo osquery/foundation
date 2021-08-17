@@ -98,7 +98,7 @@ release steps, but some of the signing and the linux repos are
 harder. **But** Teddy will probably be back then.
 
 Some discussion about moving to something closer to a CI/CD model. We
-have continous builds. There are nightly/weekly packages. We encouage
+have continuous builds. There are nightly/weekly packages. We encouage
 people to use them. An official release becomes more of a rubber
 stamp.
 

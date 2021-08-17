@@ -23,7 +23,7 @@ Third party libraries built from source (PR #5706)!
 * Some fixes for Windows are needed.
 * Some optimizations missing to improve CMake configure time.
 
-The configuration files are committed. This should help with deterministic builds. The custom toolchain folks are working on will help this work more correctly for glibc. (This targetting the end-of-August release.)
+The configuration files are committed. This should help with deterministic builds. The custom toolchain folks are working on will help this work more correctly for glibc. (This targeting the end-of-August release.)
 
 The dependencies toolchain is Linux only right now. While we expect to expand it, not for next release. 
 
@@ -44,7 +44,7 @@ Signing and distribution is still a bit ad-hoc. We expect Facebook is still will
   * Shallow clones, avoid what we do not need.
 * How can we help?
   * Folks should build & test.
-  * Dependancies are only enabled on Linux, so that is the most valuable.
+  * Dependencies are only enabled on Linux, so that is the most valuable.
 
 ## Release Focuses
 
@@ -73,7 +73,7 @@ Do we want to solicit money? Things like https://help.github.com/en/articles/dis
 
 Do we want to thank people, who are contributing hours? (Facebook, and Trail of Bits)
 
-These will have different answers. We may want to make a manual list on Github to thank some of the topline people. We expect to keep evovling.
+These will have different answers. We may want to make a manual list on Github to thank some of the topline people. We expect to keep evolving.
 
 ### ReadTheDocs ads
 

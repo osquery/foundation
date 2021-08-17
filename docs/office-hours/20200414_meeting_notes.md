@@ -123,7 +123,7 @@ to osquery. One of the things needed for an organizational Apple
 Developer Account is a DUNS number. Last week we finally got one.
 
 There's a brief waiting period, and the next steps are to submit to
-apple for a organziational cert. Apple has some programs for OSS and
+apple for a organizational cert. Apple has some programs for OSS and
 non-profits, this may not have a fee.
 
 See: https://developer.apple.com/support/membership-fee-waiver/

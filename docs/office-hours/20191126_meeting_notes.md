@@ -52,7 +52,7 @@ released a bit, and we think we should be fine.
 
 What are the 4.2.0 release focuses. Brainstorming:
 * python test framework
-* dependancy caching (especially for windows)
+* dependency caching (especially for windows)
 * more automated build/packaging tooling
 * feature parity between platforms (kafka on windows comes up)
 
@@ -143,7 +143,7 @@ Azure doesn't support FreeBSD, so we don't currently have it.
 
 It hasn't been looked at very closely since the 4.x branches.
 
-The may be issues with the dependancies.
+The may be issues with the dependencies.
 
 There are some FreeBSD users inside Facebook, but it doesn't sound
 well maintained.

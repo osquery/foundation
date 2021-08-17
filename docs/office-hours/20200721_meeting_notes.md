@@ -107,7 +107,7 @@ in an awkward state right now.
 
 ### BPF tables
 
-Alessandro is polishing his bpf libary, and currently it is his top
+Alessandro is polishing his bpf library, and currently it is his top
 priority.
 
 ### LGTM integration
@@ -122,7 +122,7 @@ We should _also_ land the improvements for it.
 
 ### 'swappable' event publisher, for example OpenBSM with EndpointSecurity
 
-Sharvil has a PoC for both swappable, and seperate tables
+Sharvil has a PoC for both swappable, and separate tables
 
 There is probably value in this kind of swappability. But we'd need a
 pretty clean abstraction for it

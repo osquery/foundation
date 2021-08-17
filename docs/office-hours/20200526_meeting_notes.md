@@ -73,7 +73,7 @@ https://github.com/osquery/osquery/milestone/49
 seph will move all non-applicable issues from the 4.4.0 milestone to
 the 4.5.0 one.
 
-4.3.0 was April 15th, A 2 month cadence would be targetting June 1.
+4.3.0 was April 15th, A 2 month cadence would be targeting June 1.
 
 We should discuss accelerating the next osquery release, because of
 those security-related OpenSSL updates (Mike).
